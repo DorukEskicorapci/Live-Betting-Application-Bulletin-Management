@@ -1,0 +1,596 @@
+2025-08-03T23:39:06.673+03:00  INFO 17927 --- [Live Betting] [main] c.e.l.LiveBettingApplicationTests        : Starting LiveBettingApplicationTests using Java 21.0.7 with PID 17927 (started by doruk.eskicorapci in /Users/doruk.eskicorapci/Desktop/Case Study/Live Betting)
+2025-08-03T23:39:06.674+03:00  INFO 17927 --- [Live Betting] [main] c.e.l.LiveBettingApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-08-03T23:39:07.851+03:00  INFO 17927 --- [Live Betting] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-03T23:39:07.914+03:00  INFO 17927 --- [Live Betting] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
+2025-08-03T23:39:08.430+03:00  INFO 17927 --- [Live Betting] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-03T23:39:08.699+03:00  INFO 17927 --- [Live Betting] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=MINIBILYONER
+2025-08-03T23:39:08.702+03:00  INFO 17927 --- [Live Betting] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-03T23:39:08.754+03:00  INFO 17927 --- [Live Betting] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-03T23:39:08.863+03:00  INFO 17927 --- [Live Betting] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-08-03T23:39:08.935+03:00  INFO 17927 --- [Live Betting] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-03T23:39:09.450+03:00  INFO 17927 --- [Live Betting] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-03T23:39:09.535+03:00  WARN 17927 --- [Live Betting] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-03T23:39:09.557+03:00  INFO 17927 --- [Live Betting] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-03T23:39:10.762+03:00  INFO 17927 --- [Live Betting] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-03T23:39:10.815+03:00  INFO 17927 --- [Live Betting] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-03T23:39:11.317+03:00  WARN 17927 --- [Live Betting] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-03T23:39:12.253+03:00  INFO 17927 --- [Live Betting] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-08-03T23:39:12.253+03:00  INFO 17927 --- [Live Betting] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-08-03T23:39:12.264+03:00  INFO 17927 --- [Live Betting] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-03T23:39:12.288+03:00  INFO 17927 --- [Live Betting] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 35 ms
+2025-08-03T23:39:12.385+03:00  INFO 17927 --- [Live Betting] [main] c.e.l.LiveBettingApplicationTests        : Started LiveBettingApplicationTests in 6.255 seconds (process running for 8.48)
+2025-08-03T23:39:12.607+03:00  INFO 17927 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-03T23:39:12.608+03:00  INFO 17927 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-03T23:39:13.385+03:00  INFO 17927 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-03T23:39:13.385+03:00  INFO 17927 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-03T23:39:13.454+03:00  INFO 17927 --- [Live Betting] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-03T23:39:13.459+03:00  INFO 17927 --- [Live Betting] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-03T23:39:13.462+03:00  INFO 17927 --- [Live Betting] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-03T23:41:08.068+03:00  INFO 18151 --- [Live Betting] [main] c.e.l.LiveBettingApplicationTests        : Starting LiveBettingApplicationTests using Java 21.0.7 with PID 18151 (started by doruk.eskicorapci in /Users/doruk.eskicorapci/Desktop/Case Study/Live Betting)
+2025-08-03T23:41:08.070+03:00  INFO 18151 --- [Live Betting] [main] c.e.l.LiveBettingApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-08-03T23:41:09.194+03:00  INFO 18151 --- [Live Betting] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-03T23:41:09.267+03:00  INFO 18151 --- [Live Betting] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interface.
+2025-08-03T23:41:09.783+03:00  INFO 18151 --- [Live Betting] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-03T23:41:10.025+03:00  INFO 18151 --- [Live Betting] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=MINIBILYONER
+2025-08-03T23:41:10.028+03:00  INFO 18151 --- [Live Betting] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-03T23:41:10.083+03:00  INFO 18151 --- [Live Betting] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-03T23:41:10.155+03:00  INFO 18151 --- [Live Betting] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-08-03T23:41:10.198+03:00  INFO 18151 --- [Live Betting] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-03T23:41:10.599+03:00  INFO 18151 --- [Live Betting] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-03T23:41:10.663+03:00  WARN 18151 --- [Live Betting] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-03T23:41:10.682+03:00  INFO 18151 --- [Live Betting] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-03T23:41:11.651+03:00  INFO 18151 --- [Live Betting] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-03T23:41:11.688+03:00  INFO 18151 --- [Live Betting] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-03T23:41:12.123+03:00  WARN 18151 --- [Live Betting] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-03T23:41:12.912+03:00  INFO 18151 --- [Live Betting] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-08-03T23:41:12.912+03:00  INFO 18151 --- [Live Betting] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-08-03T23:41:12.922+03:00  INFO 18151 --- [Live Betting] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-03T23:41:12.936+03:00  INFO 18151 --- [Live Betting] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 24 ms
+2025-08-03T23:41:13.018+03:00  INFO 18151 --- [Live Betting] [main] c.e.l.LiveBettingApplicationTests        : Started LiveBettingApplicationTests in 5.385 seconds (process running for 6.884)
+2025-08-03T23:41:13.223+03:00  INFO 18151 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-03T23:41:13.223+03:00  INFO 18151 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-03T23:41:13.578+03:00  INFO 18151 --- [Live Betting] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-03T23:41:13.584+03:00  INFO 18151 --- [Live Betting] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-03T23:41:13.587+03:00  INFO 18151 --- [Live Betting] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-03T23:41:34.794+03:00  INFO 18191 --- [Live Betting] [main] c.e.l.LiveBettingApplicationTests        : Starting LiveBettingApplicationTests using Java 21.0.7 with PID 18191 (started by doruk.eskicorapci in /Users/doruk.eskicorapci/Desktop/Case Study/Live Betting)
+2025-08-03T23:41:34.795+03:00  INFO 18191 --- [Live Betting] [main] c.e.l.LiveBettingApplicationTests        : No active profile set, falling back to 1 default profile: "default"
+2025-08-03T23:41:35.820+03:00  INFO 18191 --- [Live Betting] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-03T23:41:35.889+03:00  INFO 18191 --- [Live Betting] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 58 ms. Found 1 JPA repository interface.
+2025-08-03T23:41:36.331+03:00  INFO 18191 --- [Live Betting] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-03T23:41:36.522+03:00  INFO 18191 --- [Live Betting] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=MINIBILYONER
+2025-08-03T23:41:36.524+03:00  INFO 18191 --- [Live Betting] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-03T23:41:36.578+03:00  INFO 18191 --- [Live Betting] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-03T23:41:36.642+03:00  INFO 18191 --- [Live Betting] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-08-03T23:41:36.679+03:00  INFO 18191 --- [Live Betting] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-03T23:41:37.000+03:00  INFO 18191 --- [Live Betting] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-03T23:41:37.046+03:00  WARN 18191 --- [Live Betting] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-03T23:41:37.063+03:00  INFO 18191 --- [Live Betting] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-03T23:41:37.825+03:00  INFO 18191 --- [Live Betting] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-03T23:41:37.858+03:00  INFO 18191 --- [Live Betting] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-03T23:41:38.236+03:00  WARN 18191 --- [Live Betting] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-03T23:41:39.092+03:00  INFO 18191 --- [Live Betting] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-08-03T23:41:39.092+03:00  INFO 18191 --- [Live Betting] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-08-03T23:41:39.104+03:00  INFO 18191 --- [Live Betting] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-03T23:41:39.120+03:00  INFO 18191 --- [Live Betting] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 28 ms
+2025-08-03T23:41:39.203+03:00  INFO 18191 --- [Live Betting] [main] c.e.l.LiveBettingApplicationTests        : Started LiveBettingApplicationTests in 4.874 seconds (process running for 6.195)
+2025-08-03T23:41:39.426+03:00  INFO 18191 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-03T23:41:39.426+03:00  INFO 18191 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-03T23:41:39.733+03:00  INFO 18191 --- [Live Betting] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-03T23:41:39.737+03:00  INFO 18191 --- [Live Betting] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-03T23:41:39.740+03:00  INFO 18191 --- [Live Betting] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-03T23:43:26.574+03:00  INFO 18365 --- [Live Betting] [main] c.e.l.c.EventRestControllerTest          : Starting EventRestControllerTest using Java 21.0.7 with PID 18365 (started by doruk.eskicorapci in /Users/doruk.eskicorapci/Desktop/Case Study/Live Betting)
+2025-08-03T23:43:26.576+03:00  INFO 18365 --- [Live Betting] [main] c.e.l.c.EventRestControllerTest          : No active profile set, falling back to 1 default profile: "default"
+2025-08-03T23:43:27.617+03:00  INFO 18365 --- [Live Betting] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-03T23:43:27.678+03:00  INFO 18365 --- [Live Betting] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 51 ms. Found 1 JPA repository interface.
+2025-08-03T23:43:28.096+03:00  INFO 18365 --- [Live Betting] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-03T23:43:28.282+03:00  INFO 18365 --- [Live Betting] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=MINIBILYONER
+2025-08-03T23:43:28.284+03:00  INFO 18365 --- [Live Betting] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-03T23:43:28.328+03:00  INFO 18365 --- [Live Betting] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-03T23:43:28.388+03:00  INFO 18365 --- [Live Betting] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-08-03T23:43:28.424+03:00  INFO 18365 --- [Live Betting] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-03T23:43:28.724+03:00  INFO 18365 --- [Live Betting] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-03T23:43:28.771+03:00  WARN 18365 --- [Live Betting] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-03T23:43:28.792+03:00  INFO 18365 --- [Live Betting] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-03T23:43:29.600+03:00  INFO 18365 --- [Live Betting] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-03T23:43:29.631+03:00  INFO 18365 --- [Live Betting] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-03T23:43:30.003+03:00  WARN 18365 --- [Live Betting] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-03T23:43:30.691+03:00  INFO 18365 --- [Live Betting] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-08-03T23:43:30.692+03:00  INFO 18365 --- [Live Betting] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-08-03T23:43:30.702+03:00  INFO 18365 --- [Live Betting] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-03T23:43:30.718+03:00  INFO 18365 --- [Live Betting] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 26 ms
+2025-08-03T23:43:30.795+03:00  INFO 18365 --- [Live Betting] [main] c.e.l.c.EventRestControllerTest          : Started EventRestControllerTest in 4.611 seconds (process running for 5.769)
+2025-08-03T23:43:30.983+03:00  INFO 18365 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-03T23:43:30.983+03:00  INFO 18365 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-03T23:43:31.362+03:00  INFO 18365 --- [Live Betting] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-03T23:43:31.367+03:00  INFO 18365 --- [Live Betting] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-03T23:43:31.371+03:00  INFO 18365 --- [Live Betting] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-03T23:45:06.971+03:00  INFO 18516 --- [Live Betting] [main] c.e.l.service.OddsGeneratorServiceTest   : Starting OddsGeneratorServiceTest using Java 21.0.7 with PID 18516 (started by doruk.eskicorapci in /Users/doruk.eskicorapci/Desktop/Case Study/Live Betting)
+2025-08-03T23:45:06.972+03:00  INFO 18516 --- [Live Betting] [main] c.e.l.service.OddsGeneratorServiceTest   : No active profile set, falling back to 1 default profile: "default"
+2025-08-03T23:45:08.163+03:00  INFO 18516 --- [Live Betting] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-03T23:45:08.247+03:00  INFO 18516 --- [Live Betting] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 72 ms. Found 1 JPA repository interface.
+2025-08-03T23:45:08.725+03:00  INFO 18516 --- [Live Betting] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-03T23:45:09.014+03:00  INFO 18516 --- [Live Betting] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=MINIBILYONER
+2025-08-03T23:45:09.016+03:00  INFO 18516 --- [Live Betting] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-03T23:45:09.071+03:00  INFO 18516 --- [Live Betting] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-03T23:45:09.162+03:00  INFO 18516 --- [Live Betting] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-08-03T23:45:09.210+03:00  INFO 18516 --- [Live Betting] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-03T23:45:09.639+03:00  INFO 18516 --- [Live Betting] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-03T23:45:09.708+03:00  WARN 18516 --- [Live Betting] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-03T23:45:09.730+03:00  INFO 18516 --- [Live Betting] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-03T23:45:10.690+03:00  INFO 18516 --- [Live Betting] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-03T23:45:10.729+03:00  INFO 18516 --- [Live Betting] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-03T23:45:11.209+03:00  WARN 18516 --- [Live Betting] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-03T23:45:12.003+03:00  INFO 18516 --- [Live Betting] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-03T23:45:12.105+03:00  INFO 18516 --- [Live Betting] [main] c.e.l.service.OddsGeneratorServiceTest   : Started OddsGeneratorServiceTest in 5.623 seconds (process running for 6.987)
+2025-08-03T23:45:12.330+03:00  INFO 18516 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-03T23:45:12.331+03:00  INFO 18516 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-03T23:45:12.567+03:00  INFO 18516 --- [Live Betting] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-03T23:45:12.571+03:00  INFO 18516 --- [Live Betting] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-03T23:45:12.576+03:00  INFO 18516 --- [Live Betting] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-03T23:46:48.671+03:00  INFO 18661 --- [Live Betting] [main] c.e.l.s.EventConversionServiceTest       : Starting EventConversionServiceTest using Java 21.0.7 with PID 18661 (started by doruk.eskicorapci in /Users/doruk.eskicorapci/Desktop/Case Study/Live Betting)
+2025-08-03T23:46:48.673+03:00  INFO 18661 --- [Live Betting] [main] c.e.l.s.EventConversionServiceTest       : No active profile set, falling back to 1 default profile: "default"
+2025-08-03T23:46:49.787+03:00  INFO 18661 --- [Live Betting] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-03T23:46:49.846+03:00  INFO 18661 --- [Live Betting] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
+2025-08-03T23:46:50.372+03:00  INFO 18661 --- [Live Betting] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-03T23:46:50.581+03:00  INFO 18661 --- [Live Betting] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=MINIBILYONER
+2025-08-03T23:46:50.583+03:00  INFO 18661 --- [Live Betting] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-03T23:46:50.630+03:00  INFO 18661 --- [Live Betting] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-03T23:46:50.693+03:00  INFO 18661 --- [Live Betting] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-08-03T23:46:50.730+03:00  INFO 18661 --- [Live Betting] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-03T23:46:51.044+03:00  INFO 18661 --- [Live Betting] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-03T23:46:51.092+03:00  WARN 18661 --- [Live Betting] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-03T23:46:51.109+03:00  INFO 18661 --- [Live Betting] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-03T23:46:52.090+03:00  INFO 18661 --- [Live Betting] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-03T23:46:52.123+03:00  INFO 18661 --- [Live Betting] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-03T23:46:52.539+03:00  WARN 18661 --- [Live Betting] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-03T23:46:53.373+03:00  INFO 18661 --- [Live Betting] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-03T23:46:53.474+03:00  INFO 18661 --- [Live Betting] [main] c.e.l.s.EventConversionServiceTest       : Started EventConversionServiceTest in 5.286 seconds (process running for 7.036)
+2025-08-03T23:46:53.643+03:00  INFO 18661 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-03T23:46:53.644+03:00  INFO 18661 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-03T23:46:54.155+03:00  INFO 18661 --- [Live Betting] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-03T23:46:54.163+03:00  INFO 18661 --- [Live Betting] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-03T23:46:54.167+03:00  INFO 18661 --- [Live Betting] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-03T23:49:12.096+03:00  INFO 18858 --- [Live Betting] [main] c.e.l.service.EventServiceTest           : Starting EventServiceTest using Java 21.0.7 with PID 18858 (started by doruk.eskicorapci in /Users/doruk.eskicorapci/Desktop/Case Study/Live Betting)
+2025-08-03T23:49:12.098+03:00  INFO 18858 --- [Live Betting] [main] c.e.l.service.EventServiceTest           : No active profile set, falling back to 1 default profile: "default"
+2025-08-03T23:49:13.492+03:00  INFO 18858 --- [Live Betting] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-03T23:49:13.566+03:00  INFO 18858 --- [Live Betting] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 1 JPA repository interface.
+2025-08-03T23:49:15.069+03:00  INFO 18858 --- [Live Betting] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-03T23:49:15.251+03:00  INFO 18858 --- [Live Betting] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=MINIBILYONER
+2025-08-03T23:49:15.253+03:00  INFO 18858 --- [Live Betting] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-03T23:49:15.300+03:00  INFO 18858 --- [Live Betting] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-03T23:49:15.363+03:00  INFO 18858 --- [Live Betting] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-08-03T23:49:15.398+03:00  INFO 18858 --- [Live Betting] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-03T23:49:15.569+03:00  INFO 18858 --- [Live Betting] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-03T23:49:15.634+03:00  WARN 18858 --- [Live Betting] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-03T23:49:15.654+03:00  INFO 18858 --- [Live Betting] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-03T23:49:16.683+03:00  INFO 18858 --- [Live Betting] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-03T23:49:16.727+03:00  INFO 18858 --- [Live Betting] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-03T23:49:16.977+03:00  WARN 18858 --- [Live Betting] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-03T23:49:17.819+03:00  INFO 18858 --- [Live Betting] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-03T23:49:17.911+03:00  INFO 18858 --- [Live Betting] [main] c.e.l.service.EventServiceTest           : Started EventServiceTest in 6.277 seconds (process running for 7.935)
+2025-08-03T23:49:17.926+03:00  INFO 18858 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-03T23:49:17.927+03:00  INFO 18858 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-03T23:49:17.952+03:00  INFO 18858 --- [Live Betting] [main] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-03T23:49:18.003+03:00  INFO 18858 --- [Live Betting] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-03T23:49:18.009+03:00  INFO 18858 --- [Live Betting] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-03T23:49:18.011+03:00  INFO 18858 --- [Live Betting] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-04T00:16:16.637+03:00  INFO 75248 --- [Live Betting] [restartedMain] c.e.livebetting.LiveBettingApplication   : Starting LiveBettingApplication using Java 21.0.2 with PID 75248 (C:\Users\doruk\OneDrive\Documents\Collage life\Projects\Bilyoner\Case Study\Live Betting\target\classes started by doruk in C:\Users\doruk\OneDrive\Documents\Collage life\Projects\Bilyoner\Case Study\Live Betting)
+2025-08-04T00:16:16.639+03:00  INFO 75248 --- [Live Betting] [restartedMain] c.e.livebetting.LiveBettingApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-08-04T00:16:16.676+03:00  INFO 75248 --- [Live Betting] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-04T00:16:16.678+03:00  INFO 75248 --- [Live Betting] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-04T00:16:17.463+03:00  INFO 75248 --- [Live Betting] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-04T00:16:17.504+03:00  INFO 75248 --- [Live Betting] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interface.
+2025-08-04T00:16:17.869+03:00  INFO 75248 --- [Live Betting] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-04T00:16:17.880+03:00  INFO 75248 --- [Live Betting] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-04T00:16:17.881+03:00  INFO 75248 --- [Live Betting] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.41]
+2025-08-04T00:16:17.913+03:00  INFO 75248 --- [Live Betting] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-04T00:16:17.914+03:00  INFO 75248 --- [Live Betting] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1236 ms
+2025-08-04T00:16:18.096+03:00  INFO 75248 --- [Live Betting] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-04T00:16:18.248+03:00  INFO 75248 --- [Live Betting] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=MINIBILYONER
+2025-08-04T00:16:18.250+03:00  INFO 75248 --- [Live Betting] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-04T00:16:18.277+03:00  INFO 75248 --- [Live Betting] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-04T00:16:18.310+03:00  INFO 75248 --- [Live Betting] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-08-04T00:16:18.339+03:00  INFO 75248 --- [Live Betting] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-04T00:16:18.551+03:00  INFO 75248 --- [Live Betting] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-04T00:16:18.591+03:00  WARN 75248 --- [Live Betting] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-04T00:16:18.603+03:00  INFO 75248 --- [Live Betting] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-04T00:16:19.180+03:00  INFO 75248 --- [Live Betting] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-04T00:16:19.214+03:00  INFO 75248 --- [Live Betting] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-04T00:16:19.419+03:00  WARN 75248 --- [Live Betting] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-04T00:16:19.845+03:00  INFO 75248 --- [Live Betting] [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-08-04T00:16:19.923+03:00  INFO 75248 --- [Live Betting] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-04T00:16:19.930+03:00  INFO 75248 --- [Live Betting] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-04T00:16:19.996+03:00  INFO 75248 --- [Live Betting] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-04T00:16:20.008+03:00  INFO 75248 --- [Live Betting] [restartedMain] c.e.livebetting.LiveBettingApplication   : Started LiveBettingApplication in 3.961 seconds (process running for 4.564)
+2025-08-04T00:16:20.157+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:20.157+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:20.446+03:00  INFO 75248 --- [Live Betting] [RMI TCP Connection(2)-192.168.68.104] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-04T00:16:20.446+03:00  INFO 75248 --- [Live Betting] [RMI TCP Connection(2)-192.168.68.104] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-04T00:16:20.449+03:00  INFO 75248 --- [Live Betting] [RMI TCP Connection(2)-192.168.68.104] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2025-08-04T00:16:21.019+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:21.020+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:22.018+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:22.018+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:23.014+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:23.014+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:24.012+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:24.012+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:25.020+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:25.020+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:26.018+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:26.018+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:27.016+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:27.016+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:28.013+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:28.013+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:29.023+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:29.023+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:30.023+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:30.023+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:31.024+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:31.024+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:32.009+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:32.009+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:33.020+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:33.020+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:34.021+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:34.021+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:35.018+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:35.018+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:36.016+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:36.016+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:37.011+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:37.011+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:38.022+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:38.022+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:39.023+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:39.023+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:40.021+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:40.021+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:41.020+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:41.020+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:42.018+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:42.018+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:43.016+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:43.016+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:44.014+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:44.014+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:45.010+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:45.010+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:46.020+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:46.020+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:47.018+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:47.018+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:48.015+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:48.015+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:49.012+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:49.012+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:50.011+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:50.011+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:51.008+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:51.009+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:52.022+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:52.023+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:53.018+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:53.018+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:54.017+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:54.017+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:55.020+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:55.020+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:56.017+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:56.017+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:57.017+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:57.017+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:58.015+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:58.015+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:16:59.008+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:16:59.008+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:00.009+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:00.009+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:01.013+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:01.013+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:02.009+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:02.009+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:03.022+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:03.023+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:04.019+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:04.019+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:05.013+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:05.013+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:06.013+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:06.013+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:07.008+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:07.008+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:08.021+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:08.022+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:09.017+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:09.017+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:10.011+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:10.011+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:11.012+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:11.012+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:12.008+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:12.008+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:13.008+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:13.008+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:14.020+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:14.020+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:15.019+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:15.019+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:16.021+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:16.021+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:17.023+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:17.023+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:18.015+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:18.015+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:19.015+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:19.015+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:20.014+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:20.014+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:21.013+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:21.013+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:22.008+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:22.008+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:23.021+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:23.022+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:24.017+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:24.017+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:25.008+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:25.008+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:26.021+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:26.021+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:27.017+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:27.018+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:28.015+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:28.015+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:29.010+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:29.010+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:30.018+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:30.018+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:31.015+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:31.015+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:32.013+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:32.013+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:33.008+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:33.008+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:34.022+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:34.022+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:35.017+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:35.017+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:36.010+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:36.010+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:37.018+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:37.018+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:38.014+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:38.014+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:39.009+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:39.009+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:40.019+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:40.019+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:41.016+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:41.016+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:42.015+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:42.015+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:43.012+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:43.012+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:44.010+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:44.011+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:45.012+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:45.012+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:46.008+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:46.008+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:47.022+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:47.022+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:48.017+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:48.017+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:49.013+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:49.013+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:50.014+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:50.015+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:51.010+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:51.010+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:52.021+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:52.022+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:53.015+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:53.015+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:54.013+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:54.013+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:55.011+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:55.011+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:56.021+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:56.021+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:57.019+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:57.019+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:58.016+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:58.017+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:17:59.014+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:17:59.014+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:18:00.014+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:18:00.014+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:18:01.012+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:18:01.012+03:00  INFO 75248 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:18:01.032+03:00  INFO 75248 --- [Live Betting] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-04T00:18:01.039+03:00  INFO 75248 --- [Live Betting] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-04T00:18:01.043+03:00  INFO 75248 --- [Live Betting] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-04T00:18:01.047+03:00  WARN 75248 --- [Live Betting] [SpringApplicationShutdownHook] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-232]
+2025-08-04T00:18:01.048+03:00  INFO 75248 --- [Live Betting] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-04T00:18:01.049+03:00  INFO 75248 --- [Live Betting] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-04T00:18:11.603+03:00  INFO 39716 --- [Live Betting] [main] c.e.l.s.EventConversionServiceTest       : Starting EventConversionServiceTest using Java 21.0.2 with PID 39716 (started by doruk in C:\Users\doruk\OneDrive\Documents\Collage life\Projects\Bilyoner\Case Study\Live Betting)
+2025-08-04T00:18:11.604+03:00  INFO 39716 --- [Live Betting] [main] c.e.l.s.EventConversionServiceTest       : No active profile set, falling back to 1 default profile: "default"
+2025-08-04T00:18:12.552+03:00  INFO 39716 --- [Live Betting] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-04T00:18:12.606+03:00  INFO 39716 --- [Live Betting] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 1 JPA repository interface.
+2025-08-04T00:18:13.093+03:00  INFO 39716 --- [Live Betting] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-04T00:18:13.326+03:00  INFO 39716 --- [Live Betting] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=MINIBILYONER
+2025-08-04T00:18:13.329+03:00  INFO 39716 --- [Live Betting] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-04T00:19:02.192+03:00  INFO 39716 --- [Live Betting] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-04T00:19:02.239+03:00  INFO 39716 --- [Live Betting] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-08-04T00:19:02.283+03:00  INFO 39716 --- [Live Betting] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-04T00:19:02.579+03:00  INFO 39716 --- [Live Betting] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-04T00:19:02.635+03:00  WARN 39716 --- [Live Betting] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-04T00:19:02.648+03:00  INFO 39716 --- [Live Betting] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-04T00:19:03.289+03:00  INFO 39716 --- [Live Betting] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-04T00:19:03.319+03:00  INFO 39716 --- [Live Betting] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-04T00:19:03.804+03:00  WARN 39716 --- [Live Betting] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-04T00:19:04.485+03:00  INFO 39716 --- [Live Betting] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-04T00:19:04.543+03:00  INFO 39716 --- [Live Betting] [main] c.e.l.s.EventConversionServiceTest       : Started EventConversionServiceTest in 53.293 seconds (process running for 54.251)
+2025-08-04T00:19:04.701+03:00  INFO 39716 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:19:04.702+03:00  INFO 39716 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:19:05.056+03:00  INFO 39716 --- [Live Betting] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-04T00:19:05.062+03:00  INFO 39716 --- [Live Betting] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-04T00:19:05.065+03:00  INFO 39716 --- [Live Betting] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-04T00:19:14.771+03:00  INFO 260060 --- [Live Betting] [main] c.e.l.c.EventRestControllerTest          : Starting EventRestControllerTest using Java 21.0.2 with PID 260060 (started by doruk in C:\Users\doruk\OneDrive\Documents\Collage life\Projects\Bilyoner\Case Study\Live Betting)
+2025-08-04T00:19:14.772+03:00  INFO 260060 --- [Live Betting] [main] c.e.l.c.EventRestControllerTest          : No active profile set, falling back to 1 default profile: "default"
+2025-08-04T00:19:15.728+03:00  INFO 260060 --- [Live Betting] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-04T00:19:15.781+03:00  INFO 260060 --- [Live Betting] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interface.
+2025-08-04T00:19:16.337+03:00  INFO 260060 --- [Live Betting] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-04T00:19:16.613+03:00  INFO 260060 --- [Live Betting] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=MINIBILYONER
+2025-08-04T00:19:16.619+03:00  INFO 260060 --- [Live Betting] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-04T00:19:16.698+03:00  INFO 260060 --- [Live Betting] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-04T00:19:16.810+03:00  INFO 260060 --- [Live Betting] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-08-04T00:19:16.892+03:00  INFO 260060 --- [Live Betting] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-04T00:19:17.227+03:00  INFO 260060 --- [Live Betting] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-04T00:19:17.279+03:00  WARN 260060 --- [Live Betting] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-04T00:19:17.298+03:00  INFO 260060 --- [Live Betting] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-04T00:19:17.968+03:00  INFO 260060 --- [Live Betting] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-04T00:19:17.996+03:00  INFO 260060 --- [Live Betting] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-04T00:19:18.500+03:00  WARN 260060 --- [Live Betting] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-04T00:19:19.501+03:00  INFO 260060 --- [Live Betting] [main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-08-04T00:19:19.502+03:00  INFO 260060 --- [Live Betting] [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-08-04T00:19:19.509+03:00  INFO 260060 --- [Live Betting] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-04T00:19:19.521+03:00  INFO 260060 --- [Live Betting] [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 19 ms
+2025-08-04T00:19:19.625+03:00  INFO 260060 --- [Live Betting] [main] c.e.l.c.EventRestControllerTest          : Started EventRestControllerTest in 5.214 seconds (process running for 6.233)
+2025-08-04T00:19:19.763+03:00  INFO 260060 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:19:19.763+03:00  INFO 260060 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:19:20.063+03:00  INFO 260060 --- [Live Betting] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-04T00:19:20.067+03:00  INFO 260060 --- [Live Betting] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-04T00:19:20.072+03:00  INFO 260060 --- [Live Betting] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-04T00:19:38.487+03:00  INFO 267240 --- [Live Betting] [main] c.e.l.s.EventConversionServiceTest       : Starting EventConversionServiceTest using Java 21.0.2 with PID 267240 (started by doruk in C:\Users\doruk\OneDrive\Documents\Collage life\Projects\Bilyoner\Case Study\Live Betting)
+2025-08-04T00:19:38.489+03:00  INFO 267240 --- [Live Betting] [main] c.e.l.s.EventConversionServiceTest       : No active profile set, falling back to 1 default profile: "default"
+2025-08-04T00:19:39.480+03:00  INFO 267240 --- [Live Betting] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-04T00:19:39.578+03:00  INFO 267240 --- [Live Betting] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 1 JPA repository interface.
+2025-08-04T00:19:40.202+03:00  INFO 267240 --- [Live Betting] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-04T00:19:40.547+03:00  INFO 267240 --- [Live Betting] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=MINIBILYONER
+2025-08-04T00:19:40.552+03:00  INFO 267240 --- [Live Betting] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-04T00:19:40.621+03:00  INFO 267240 --- [Live Betting] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-04T00:19:40.748+03:00  INFO 267240 --- [Live Betting] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-08-04T00:19:40.819+03:00  INFO 267240 --- [Live Betting] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-04T00:19:41.162+03:00  INFO 267240 --- [Live Betting] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-04T00:19:41.214+03:00  WARN 267240 --- [Live Betting] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-04T00:19:41.244+03:00  INFO 267240 --- [Live Betting] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-04T00:19:41.515+03:00  INFO 41048 --- [Live Betting] [main] c.e.l.service.OddsGeneratorServiceTest   : Starting OddsGeneratorServiceTest using Java 21.0.2 with PID 41048 (started by doruk in C:\Users\doruk\OneDrive\Documents\Collage life\Projects\Bilyoner\Case Study\Live Betting)
+2025-08-04T00:19:41.516+03:00  INFO 41048 --- [Live Betting] [main] c.e.l.service.OddsGeneratorServiceTest   : No active profile set, falling back to 1 default profile: "default"
+2025-08-04T00:19:42.035+03:00  INFO 267240 --- [Live Betting] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-04T00:19:42.071+03:00  INFO 267240 --- [Live Betting] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-04T00:19:42.615+03:00  INFO 41048 --- [Live Betting] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-04T00:19:42.702+03:00  INFO 41048 --- [Live Betting] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 1 JPA repository interface.
+2025-08-04T00:19:42.759+03:00  WARN 267240 --- [Live Betting] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-04T00:19:43.365+03:00  INFO 41048 --- [Live Betting] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-04T00:19:43.745+03:00  INFO 41048 --- [Live Betting] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=MINIBILYONER
+2025-08-04T00:19:43.751+03:00  INFO 41048 --- [Live Betting] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-04T00:19:43.846+03:00  INFO 41048 --- [Live Betting] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-04T00:19:43.981+03:00  INFO 41048 --- [Live Betting] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.15.Final
+2025-08-04T00:19:44.054+03:00  INFO 41048 --- [Live Betting] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-04T00:19:44.055+03:00  INFO 267240 --- [Live Betting] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-04T00:19:44.222+03:00  INFO 267240 --- [Live Betting] [main] c.e.l.s.EventConversionServiceTest       : Started EventConversionServiceTest in 6.141 seconds (process running for 7.285)
+2025-08-04T00:19:44.499+03:00  INFO 267240 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:19:44.499+03:00  INFO 267240 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:19:44.525+03:00  INFO 41048 --- [Live Betting] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-04T00:19:44.589+03:00  WARN 41048 --- [Live Betting] [main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-04T00:19:44.607+03:00  INFO 41048 --- [Live Betting] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-04T00:19:44.903+03:00  INFO 267240 --- [Live Betting] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-04T00:19:44.909+03:00  INFO 267240 --- [Live Betting] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-04T00:19:44.914+03:00  INFO 267240 --- [Live Betting] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-04T00:19:45.321+03:00  INFO 41048 --- [Live Betting] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-04T00:19:45.360+03:00  INFO 41048 --- [Live Betting] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-04T00:19:45.901+03:00  WARN 41048 --- [Live Betting] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-04T00:19:46.884+03:00  INFO 41048 --- [Live Betting] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-04T00:19:46.951+03:00  INFO 41048 --- [Live Betting] [main] c.e.l.service.OddsGeneratorServiceTest   : Started OddsGeneratorServiceTest in 5.865 seconds (process running for 7.165)
+2025-08-04T00:19:47.165+03:00  INFO 41048 --- [Live Betting] [scheduling-1] c.e.livebetting.service.EventService     : Found 0 events
+2025-08-04T00:19:47.165+03:00  INFO 41048 --- [Live Betting] [scheduling-1] c.e.l.service.OddsUpdateService          : Updated odds for 0 events
+2025-08-04T00:19:47.306+03:00  INFO 41048 --- [Live Betting] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-04T00:19:47.311+03:00  INFO 41048 --- [Live Betting] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-04T00:19:47.315+03:00  INFO 41048 --- [Live Betting] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
