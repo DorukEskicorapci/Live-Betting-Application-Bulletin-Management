@@ -27,7 +27,6 @@ public class EventResponse {
         this.homeWinOdds = event.getHomeWinOdds();
         this.drawOdds = event.getDrawOdds();
         this.awayWinOdds = event.getAwayWinOdds();
-        //this.startDateTime = event.getStartDateTime();
     }
 
     public static EventResponse from(Event event) {
