@@ -1,6 +1,6 @@
 # Live Betting Application Bulletin Management
 
-**Project Type:** Spring Boot + Java banking‑style live betting API with bulletin management
+**Project Type:** Spring Boot + Java live betting API with bulletin management
 
 **Start Date:** May 2025
 
