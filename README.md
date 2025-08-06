@@ -18,7 +18,6 @@ This project implements a **live sports betting bulletin management service** us
 
 ## ⚙️ Features
 
-* **User Access & Authentication** – Users authenticate with secure credentials using Spring Security.
 * **Bulletin Management** – Create, view, update, and delete bulletins related to live betting events.
 * **Event Endpoints** – REST API endpoints to retrieve current betting events and statuses.
 * **Scheduled Updates** – Automated tasks fetch live event data and push bulletin updates.
