@@ -70,7 +70,7 @@ src
 5. **Test the API** endpoints with a tool like Postman or curl:
 
    * `GET /api/events` — Retrieve all events.
-   * `GET /api/events/{eventId}` — Retrieve a specific event by ID.
+   * `GET /api/events/{id}` — Retrieve a specific event by ID.
    * `POST /api/events` — Create new events (bulk).
    * `PUT /api/events/{id}` — Update an event by ID.
 
